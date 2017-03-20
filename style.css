@@ -1,0 +1,340 @@
+.page{
+    overflow-y: auto;
+    position: relative;
+}
+/*page1.css  start*/
+.p1_page{
+    background: url("../images/shoutu.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.btn_bg{
+    position: absolute;
+    left: 50%;
+    bottom: 2.533rem;
+    width: 11.622rem;
+    height: 1.822rem;
+    color: #fff;
+    text-align: center;
+    margin-left: -5.811rem;
+    font: 1.2rem/1.822rem "FZZZHONGHJW";
+    background: url("../images/btn_bg.png") no-repeat;
+    background-size: 100% 100%;
+}
+.mask_btn{
+    position: absolute;
+    left: 50%;
+    bottom: .844rem;
+    width: 4.733rem;
+    height: 1.178rem;
+    color: #3F1418;
+    text-align: center;
+    margin-left: -2.367rem;
+    border: 1px solid #3F1418;
+    font: .75rem/1.178rem "FZZHJW";
+}
+.opacity_fff{
+    background: rgba(255,255,255,.8);
+}
+.p1_mask{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 4%;
+    /*width: 13.378rem;*/
+    width: 11.467rem;
+    height: 92%;
+    margin-left: -6.689rem;
+    padding-left: 1.111rem;
+    padding-right: .8rem;
+}
+.p1_mask .m_title{
+    color: #A40B5E;
+    text-align: center;
+    margin-top: 2.622rem;
+    margin-bottom: 0.711rem;
+    font: 1.2rem/1.2rem "FZZDHJW";
+}
+.m_txt_box p{
+    color: #401418;
+    font: .711rem/.889rem "FZZZHONGHJW";
+    margin-bottom: .533rem;
+}
+.m_txt_box p span{
+    color: #A40B5E;
+    font-family: "FZZDHJW";
+}
+.m_close{
+    position: absolute;
+    right: -.356rem;
+    top: -.356rem;
+    width: 1.156rem;
+    height: 1.156rem;
+    background: url("../images/button4.png") no-repeat;
+    background-size: 100% 100%;
+}
+/*page1.css  end*/
+
+
+/*page2.css  start*/
+.p2_page{
+    background: url("../images/di.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.p2_txt_box{
+    margin-top: 2.133rem;
+    margin-bottom: 1rem;
+}
+.p2_txt_box p{
+    text-align: center;
+}
+.p2_txt1{
+    color: #6A3906;
+    font: .8rem/.8rem "FZZHJW";
+}
+.p2_txt2{
+    color: #40220F;
+    margin-top: .267rem;
+    margin-bottom: .222rem;
+    font: 1.044rem/1.044rem "方正正粗黑简体";
+}
+.p2_txt3{
+    color: #956134;
+    font: .8rem/.8rem "FZZHJW";
+}
+.leaf{
+    width: 10.711rem;
+    height: 13.156rem;
+}
+.leaf1_2{
+    width: 11.267rem;
+    height: 14.0667rem;
+}
+.leaf2_2{
+    width: 12.044rem;
+    height: 14.311rem;
+}
+.leaf3_2{
+    width: 12.622rem;
+    height: 12.889rem;
+    margin-left: 1rem;
+}
+.leaf4_2{
+    width: 11.622rem;
+    height: 11.978rem;
+    margin-left: 1rem;
+}
+.p2_bottom_fix{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2.622rem;
+}
+.p2_txt{
+    color: #6A3906;
+    text-align: center;
+    font-size: .844rem;
+    font-family: "FZZZHONGHJW";
+}
+.p2_txt span{
+    line-height: 1.8rem;
+    vertical-align: top;
+}
+.p2_b_color{
+    width: 9.378rem;
+    height: 1.6rem;
+    margin-top: .444rem;
+    border-right: 1px solid #40220F;
+}
+.p2_b_beautify{
+    width: 6.578rem;
+    height: 1.6rem;
+    margin-top: .444rem;
+}
+.p2_b_color i{
+    width: 1.244rem;
+    height: 1.6rem;
+    margin-right: .444rem;
+    background: url("../images/shua.png") no-repeat;
+    background-size: 100% 100%;
+}
+.p2_b_beautify i{
+    width: 1.244rem;
+    height: 1.6rem;
+    margin-right: .222rem;
+    background: url("../images/yijianmeihua.png") no-repeat;
+    background-size: 100% 100%;
+}
+.p2_right_fix{
+    position: fixed;
+    right: 0;
+    bottom: 3.2rem;
+    width: 100%;
+    height: 3.289rem;
+    text-align: right;
+}
+.p2_b_save{
+    position: absolute;
+    right: 0;
+    width: 3.289rem;
+    height: 3.289rem;
+    margin-bottom: .578rem;
+}
+.p2_b_save i{
+    display: block;
+    width: 1.622rem;
+    height: 1.622rem;
+    margin: .3rem auto .222rem;
+    background: url("../images/baocun.png") no-repeat;
+    background-size: 100% 100%;
+}
+.p2_fix_choose{
+    display: none;
+}
+.p2_fix_choose img{
+    width: 14.333rem;
+    height: 1.4rem;
+    margin-top: .622rem;
+    margin-left: .844rem;
+}
+.p2_fix_choose i{
+    position: absolute;
+    width: 1.4rem;
+    height: 1.4rem;
+    top: .622rem;
+}
+.p2_fix_choose .choose_bnt1{
+    left: .844rem;
+    top: .889rem;
+    width: .844rem;
+    height: .844rem;
+}
+.p2_fix_choose .choose_bnt2{
+    left: 3.289rem;
+}
+.p2_fix_choose .choose_bnt3{
+    left: 5.956rem;
+}
+.p2_fix_choose .choose_bnt4{
+    left: 8.622rem;
+}
+.p2_fix_choose .choose_bnt5{
+    left: 11.244rem;
+}
+.p2_fix_choose .choose_bnt6{
+    left: 14.3rem;
+    top: .889rem;
+    width: .844rem;
+    height: .844rem;
+}
+/*page2.css  end*/
+
+
+/*page3.css  start*/
+.p2_txt_box{
+    margin-top: 2.556rem;
+}
+.p3_txt2{
+    margin: 0;
+    font:1.156rem/1.156rem "方正正粗黑简体";
+}
+.p3_txt3{
+    color: #40220F;
+    margin-top: .267rem;
+    margin-bottom: .222rem;
+    font:.933rem/.933rem "方正正粗黑简体";
+}
+.p3_txt1{
+    color: #40220F;
+    font:.8rem/.933rem "FZZHJW";
+}
+.p3_page .btn_bg{
+    bottom: 2.222rem;
+}
+.author{
+    position: absolute;
+    right: 2.311rem;
+    bottom: 4.533rem;
+    color: #6A3906;
+    font: .578rem/.578rem "FZZZHONGHJW";
+}
+.share_mask{
+    display: none;
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+}
+.share_img{
+    position: absolute;
+    right: 1.822rem;
+    top: 2.511rem;
+    width: 3.333rem;
+    height: 4.978rem;
+}
+.share_mask .m_title{
+    position: absolute;
+    left: 4.467rem;
+    top: 7.911rem;
+    color: #D70051;
+    font: 1.2rem/1.3rem "方正正粗黑简体";
+}
+.p4_txt1{
+    color: #6A3906;
+}
+.p4_txt2{
+    line-height: 1.2rem;
+}
+.p4_txt2 span{
+    color: #40220F;
+    font: .911rem/.911rem "FZZHJW";
+}
+/*page3.css  end*/
+
+
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2){
+    /* iphone4/4s */
+    .mask_btn{
+        bottom: .6rem;
+    }
+    .btn_bg{
+        bottom: 2.2rem;
+    }
+    .p2_b_color{
+        width: 9.34rem;
+    }
+    .p3_page .btn_bg{
+        bottom: .5rem;
+    }
+    .author{
+        bottom: 2.533rem;
+    }
+    .p2_txt_box{
+        margin-top: 1.5rem;
+    }
+
+}
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){
+    /*iphone5 */
+    .p2_b_color{
+        width: 9.35rem;
+    }
+
+}
+@media (device-height:732px) and (-webkit-min-device-pixel-ratio:1.7767){
+
+    /* 安卓 */
+    .btn_bg{
+        bottom: 2.3rem;
+    }
+    .mask_btn{
+        bottom: .5rem;
+    }
+    .p3_page .btn_bg{
+        bottom: 1rem;
+    }
+    .author{
+        bottom: 3.6rem;
+    }
+}
