@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>秋日印象季</title>
+    <!-- 移动设备支持 -->
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+    <meta content="no-cache" http-equiv="pragma">
+    <meta content="0" http-equiv="expires">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!--公共样式-->
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/px2rem.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="page p1_page">
+    <a href="page2.html" class="btn_bg">涂画秋日的枫叶</a>
+    <a href="javascript:void (0);" class="mask_btn">秋日三重奏</a>
+
+    <!--秋日三重奏弹窗-->
+    <div class="p1_mask opacity_fff">
+        <i class="m_close"></i>
+        <p class="m_title">秋日印象季三重奏</p>
+        <div class="m_txt_box">
+            <p><span>触电鬼吹灯：</span>实景沉浸互动娱乐，风靡全球的沉浸式娱乐魔都首秀，电影+戏剧+密室+游戏”的现场娱乐，八大嗨点十感体验。</p>
+            <p><span>落日长廊：</span>实体穿越空间，秋日世界美拍季，感受摩天轮下普鲁旺斯的薰衣草，体感香舍利街的秋日街头，身临其境加拿大的落叶枫林。</p>
+            <p><span>风之秋林：</span>脚下的落叶，原来隐藏着秘密，扫叶子二维码更多惊喜陪伴你，让这个秋天如此的文艺，让这个秋天如此的不一样~整个秋日让你穿越世界秋日，做一次文创的“枫”艺术家。</p>
+            <p><span>花海的约定：</span>还原北海道花田，与摩天轮“有爱大声说”装置呼应，延续风之林体验，浪漫的邂逅，寻找你我的约定。</p>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/m_px2rem.js"></script>
+<script>
+    $(function(){
+        $('.mask_btn').click(function(){
+            $('.p1_mask').show();
+        });
+        $('.m_close').click(function(){
+            $('.p1_mask').hide();
+        });
+    })
+</script>
+</html>

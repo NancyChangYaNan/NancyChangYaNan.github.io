@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>秋日印象季</title>
+    <!-- 移动设备支持 -->
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+    <meta content="no-cache" http-equiv="pragma">
+    <meta content="0" http-equiv="expires">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!--公共样式-->
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/px2rem.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="page p2_page p3_page">
+    <div class="p2_txt_box">
+        <p class="p2_txt2 p3_txt2">凭此页面截图可至</p>
+        <p class="p2_txt3 p3_txt3">南座1楼服务台</p>
+        <p class="p3_txt1">领取鬼吹灯抵用券1张，每天限前100位</p>
+    </div>
+    <p class="leaf_base txt_center"><img src="images/yezi1-2.png" class="leaf leaf1_2"></p>
+
+    <p class="author">作者：Nancy</p>
+    <a href="javascript:void(0);" class="btn_bg to_friend">送给特别的朋友</a>
+
+    <!--分享弹窗-->
+    <div class="mask share_mask opacity_fff">
+        <img src="images/jiantou.png" class="share_img" />
+        <p class="m_title">特别的枫叶<br />赠给特别的你</p>
+    </div>
+</div>
+</body>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/m_px2rem.js"></script>
+<script>
+    $(function(){
+        $('.to_friend').click(function(){
+            $('.share_mask').show();
+        });
+        $('.share_mask').click(function(){
+            $('.share_mask').hide();
+        });
+    })
+</script>
+</html>
